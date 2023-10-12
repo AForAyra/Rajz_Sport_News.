@@ -1,0 +1,94 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	color: #ededed;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 10%;
+	background: #000000;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 100;
+}
+
+.logo {
+	position: relative;
+	text-decoration: none;
+	size: 500px;
+	
+}
+
+.navbar a {
+	font-size: 18px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 600;
+	margin-left: 35px;
+	transition: .3s;
+	
+}
+
+.navbar a:hover,
+.navbar a.active {
+	color: #00abf0;
+}
+
+
+.marquee-container {
+    position: center;
+}
+
+.marquee-text {
+	font-family: "Adobe Caslon Pro Bold; sans-serif";
+	font-size: 12px;
+ 	position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    background-color: #00abf0;
+    white-space: nowrap;
+}
+
+.jarak{
+	margin-top: 200px;
+}
+
+.jarak h1{
+	font-family: Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+    color: 	#00abf0;
+}
+
+.image-container {
+	width: 800px;
+    margin: 0 auto;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.image-caption {
+    font-style: italic;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.image-caption p {
+	padding: 20px;
+}
